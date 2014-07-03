@@ -87,7 +87,7 @@ $(function() {
 // twitter ticker
       jQuery(function($){
         $("#ticker").tweet({
-          username: "enihilo",
+          username: "teamGOJO",
           page: 1,
           avatar_size: 0,
           count: 20,
