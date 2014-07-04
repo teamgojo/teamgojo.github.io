@@ -384,7 +384,10 @@ width: 100%;
 min-height: 100%;
 margin: 0;
 padding: 0;
-background: rgba(0, 0, 0, 0.2);
+/*Uncomment later*/
+/*background: rgba(0, 0, 0, 0.2);*/
+background: url(../images/background/1.jpg)
+
 }
 
 .lower-page {
