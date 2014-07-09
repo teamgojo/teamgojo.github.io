@@ -35,7 +35,8 @@ jQuery(function($){
 												{image : 'images/background/2.jpg', title : '', thumb : '', url : ''},
 												{image : 'images/background/3.jpg', title : '', thumb : '', url : ''},
 												{image : 'images/background/4.jpg', title : '', thumb : '', url : ''},
-												{image : 'images/background/5.jpg', title : '', thumb : '', url : ''}
+												{image : 'images/background/5.jpg', title : '', thumb : '', url : ''},
+												{image : 'images/background/6.jpg', title : '', thumb : '', url : ''}
 												]
 					
 				});
