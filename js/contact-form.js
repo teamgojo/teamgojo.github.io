@@ -29,7 +29,7 @@ $(document).ready(function() {
         var email = $form.find( "input[name='EMAIL']" ).val()
         $.ajax({
 
-            url: $(this).attr('action'),{email: email}
+            url: $(this).attr('action'),
             data: $form.serialize(),
             type: 'POST',
             // crossDomain: true,
