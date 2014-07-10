@@ -26,12 +26,24 @@ $(document).ready(function() {
             $('form#subscribe input.submit').fadeOut('normal', function() {
             $(this).parent().append('');
         });
-        var formInput = $(this).serialize();
-        $.post($(this).attr('action'),formInput, function(data){
-            $('form#subscribe').slideUp("fast", function() {
-                $(this).before('<p class="success">Thank you for subscribing.</p>');
-            });
-        });
+        var email = $form.find( "input[name='email']" ).val()
+        $.ajax({
+
+            url: $(this).attr('action'),{email: email}
+            data: $form.serialize(),
+            type: 'POST',
+            // crossDomain: true,
+            dataType: 'jsonp',
+            success: function() { alert("Success"); },
+            error: function() { alert('Failed!'); },
+            beforeSend: setHeader
+        });    
+        // var formInput = $(this).serialize();
+        // $.post($(this).attr('action'),formInput, function(data){
+        //     $('form#subscribe').slideUp("fast", function() {
+        //         $(this).before('<p class="success">Thank you for subscribing.</p>');
+        //     });
+        // });
     }
     return false;
     });
