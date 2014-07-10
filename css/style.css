@@ -299,7 +299,7 @@ p a:hover {
 .intro h1 {
     /*font-family: 'LeagueGothicRegular';*/
     font-family: 'NEUROPOL';
-    font-size: 140px;
+    font-size: 210px;
     font-weight: 100;
     font-style: normal;
     text-align: center;
@@ -832,7 +832,7 @@ input#email {
 
 input#submit {
     position: relative;
-    width: 80px;
+    width: 100px;
     height: 30px;
     line-height: 26px;
     font-size: 10px;
@@ -844,6 +844,7 @@ input#submit {
     color: #fff;
     background: #555;
     cursor: pointer;
+    font-family: 'NEUROPOL';
 }
 
 input {

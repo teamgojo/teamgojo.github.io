@@ -26,7 +26,7 @@ $(document).ready(function() {
             $('form#subscribe input.submit').fadeOut('normal', function() {
             $(this).parent().append('');
         });
-        var email = $form.find( "input[name='email']" ).val()
+        var email = $form.find( "input[name='EMAIL']" ).val()
         $.ajax({
 
             url: $(this).attr('action'),{email: email}
