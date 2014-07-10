@@ -31,12 +31,12 @@ jQuery(function($){
 					thumb_links				:	1,			// Individual thumb links for each slide
 					thumbnail_navigation    :   0,			// Thumbnail navigation
 					slides 					:  	[			// Slideshow Images
-												{image : 'images/background/1.jpg', title : '', thumb : '', url : ''},
-												{image : 'images/background/2.jpg', title : '', thumb : '', url : ''},
-												{image : 'images/background/3.jpg', title : '', thumb : '', url : ''},
-												{image : 'images/background/4.jpg', title : '', thumb : '', url : ''},
-												{image : 'images/background/5.jpg', title : '', thumb : '', url : ''},
-												{image : 'images/background/6.jpg', title : '', thumb : '', url : ''}
+												{image : 'images/background/LondonUnderground.jpg', title : '', thumb : '', url : ''}, //London Underground Halftone.
+												{image : 'images/background/CarbonFiber.jpg', title : '', thumb : '', url : ''}, //ManaFire BW Invert Halftone
+												{image : 'images/background/AbandonJailCell.jpg', title : '', thumb : '', url : ''},
+												{image : 'images/background/CarbonFiber.jpg', title : '', thumb : '', url : ''}
+												// {image : 'images/background/2.jpg', title : '', thumb : '', url : ''},
+												// {image : 'images/background/3.jpg', title : '', thumb : '', url : ''}
 												]
 					
 				});
