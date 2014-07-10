@@ -219,8 +219,9 @@ body {
 }
 
 h1 {
-    font-family: 'LeagueGothicRegular';
-    font-size: 100px;
+    /*font-family: 'LeagueGothicRegular';*/
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 70px;
     font-weight: 100;
     font-style: normal;
     text-align: center;
@@ -836,7 +837,7 @@ input#submit {
     height: 30px;
     line-height: 26px;
     font-size: 12px;
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
     float: right;
     margin-left: 5px;
     margin-bottom: 5px;
@@ -844,7 +845,7 @@ input#submit {
     color: #fff;
     background: #555;
     cursor: pointer;
-    font-family: 'NEUROPOL';
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 input {
