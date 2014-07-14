@@ -313,7 +313,7 @@ p a:hover {
 .introduction h3, .introduction div {
       /*font-family: 'Roboto', sans-serif;*/
     font-family: 'NEUROPOL';
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.5;
     font-style: normal;
     font-weight: 400;
@@ -324,6 +324,7 @@ p a:hover {
 
 .introduction h3 span, .introduction div span {
     display: inline-block;
+    font-size: 20px;
 }
 
 .introduction h3 {
@@ -334,7 +335,7 @@ p a:hover {
 }
 
 .intro-line {
-    width: 100px;
+    width: 50px;
     height: 1px;
     background: #fff;
     margin: 5px 15px;
