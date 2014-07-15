@@ -507,6 +507,10 @@ ul#countdown li p.timeRefSeconds {
     background: rgba(255, 255, 255, 0.9);
 }
 
+.lower-page p.about{
+  font-size: 18px;
+}
+
 .lower-content {
     margin: 0 auto;
     padding: 25px 0 89px 0;
